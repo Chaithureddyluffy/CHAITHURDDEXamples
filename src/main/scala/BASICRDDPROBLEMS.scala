@@ -71,6 +71,7 @@ object BASICRDDPROBLEMS {
     //Using Sortby we can sort BOTH keys and values only differnce is handle the Tuples carefully
     val rdd5=rdd4.sortBy(x=>x._1)
     rdd5.take(2).foreach(println)*/
+    println("welcome")
 
   }
 
